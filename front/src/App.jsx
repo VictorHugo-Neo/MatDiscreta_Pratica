@@ -24,6 +24,11 @@ function App(){
             Executar Código
           </button>
         </div>
+
+        <div classNmae = "bg-black p-4 rounded-lg border border-gray-700 h-32 overflow-y-auto font-mono text-sm text-green-400">
+          <p>{">"} O resultado do cálculo é....</p>
+        </div>
+      
       </div>
     </div>
   )
