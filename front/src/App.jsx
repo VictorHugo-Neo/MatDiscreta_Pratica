@@ -15,9 +15,14 @@ function App(){
           <div className="mb-4 text-sm font-medium">
             Status do Motor Python: {" "}
             <span className = "text-yellow-400">Aguardando conexão...</span>
-
           </div>
-          
+
+          <div className = "h-64 bg-gray-950 rounded border border-gray-600 flex items-center justifiy-center mb-4">
+            <span className="text-gray-500">Digite o seu código aqui</span>
+          </div>
+          <button className ="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-4 rounded transition-colors disabled:opacity-50">
+            Executar Código
+          </button>
         </div>
       </div>
     </div>
